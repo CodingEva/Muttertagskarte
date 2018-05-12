@@ -1,0 +1,70 @@
+#aussen {
+  z-index: 1;
+  position: absolute;
+  background-color: orchid;
+  width: 65%;
+  height: 65%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#aussen-titel {
+  color: lightblue;
+  background-color: chartreuse
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+  border: 4px solid violet;
+  
+}
+
+#aussen-bild {
+  width: 160px;
+  height: 160px;
+}
+
+#outside-help {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+  padding: 20px;
+}
+
+#innen {
+  z-index: 0;
+  position: absolute;
+  background-color: lightblue;
+  width: 65%;
+  height: 65%;
+  text-align: center;
+}
+
+#innen-titel {
+  color: blueviolet;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+  border: 6px solid darksalmon;
+}
+
+#innen-bild {
+  width: 150px;
+  height: 150px;
+}
+
+#message {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+}
+
+button {
+  background: silver;
+}
